@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/baseUI.css">
+    <link rel="stylesheet" href="css/feedback.css">
+    <title>云家洁</title>
+</head>
+<body>
+<script src="js/Base-init.js"></script>
+<header class="base-header">
+    <a class="goBack" href="user.html"></a>反馈
+</header>
+<main id="feedback">
+    <textarea name="" id="" cols="30" rows="10" placeholder="您要反馈的问题"></textarea>
+    <a href="download.html"><div class="submit">提交反馈</div></a>
+</main>
+<footer id="footer" @click="showPhoneNumber" class="base-footer">
+    <div @click>联系客服</div>
+</footer>
+<section class="mask-service-phone" v-show="show">
+    <div class="wrap">
+        <i @click="closePhoneNumber">×</i>
+        <div class="phoneNumber">客服热线:0577-88835715</div>
+        <div class="dial">确认拨号</div>
+    </div>
+</section>
+<script src="lib/vue/vue.js"></script>
+<script src="js/baseCustomerService.js"></script>
+</body>
+</html>

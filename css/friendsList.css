@@ -1,0 +1,44 @@
+#friends_list {
+    background-color: #fff;
+}
+#friends_list li{
+    padding: 0.2rem 0.3rem;
+    border-bottom:1px solid #ccc;
+}
+#friends_list li .head-portrait{
+    float: left;
+    width:0.8rem;
+    height:0.8rem;
+    border-radius: 50%;
+}
+#friends_list li span{
+    display: inline-block;
+    width:0.35rem;
+    height:0.35rem;
+    background-color: #ec6941;
+    border-radius: 50%;
+    position: relative;
+    top:-0.04rem;
+    text-align: center;
+}
+#friends_list li span img{
+    width:0.24rem;
+    height:0.24rem;
+}
+#friends_list li .head-portrait img {
+    width:0.8rem;
+    height:0.8rem;
+}
+#friends_list li p {
+    padding-left:1.1rem;
+}
+#friends_list li p:nth-of-type(1){
+    padding-top:0.05rem;
+    font-size:0.28rem;
+    color: #333;
+}
+#friends_list li p:nth-of-type(2){
+    padding-top: 0.22rem;
+    font-size:0.22rem;
+    color: #919191;
+}

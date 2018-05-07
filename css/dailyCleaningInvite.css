@@ -1,0 +1,54 @@
+#slider{
+    height:5rem;
+    overflow: hidden;
+    background: url(../img/dailyCleaningInvite/slider01.jpg) no-repeat 0 0 /7.5rem 5rem;
+}
+#rule {
+    position: relative;
+    padding-top:2rem;
+    background-color: #fff;
+    padding-bottom:1rem;
+}
+#rule .point {
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    right: 0;
+    top:-0.93rem;
+    width:6.9rem;
+    margin: 0 auto;
+    height:2.57rem;
+    text-align: center;
+    padding-top:0.27rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.1rem 0.3rem #eaeaea;
+}
+#rule .point img{
+    width:2.6rem;
+    height:0.78rem;
+}
+#rule .point p {
+    line-height:100%;
+}
+#rule .point .rule-01{
+    color: #919191;
+    margin-top:0.44rem;
+}
+#rule .point .rule-02{
+    color: #333;
+    margin-top:0.18rem;
+    font-size:0.32rem;
+}
+#rule h3{
+    text-align: center;
+    margin-bottom:0.2rem;
+}
+#rule p{
+    margin: 0 auto;
+    width:5.37rem;
+    color: #999;
+    line-height:180%;
+}
+.base-footer div {
+    width:6.9rem;
+}

@@ -1,0 +1,58 @@
+body{
+    background-color: #fff;
+    height: auto;
+}
+#balance{
+    height:3.02rem;
+    text-align: center;
+    padding-top:1rem;
+    background: url(../img/userPoint/point.png) no-repeat center 0.39rem/ 5.89rem 1.54rem;
+    border-bottom:0.12rem solid #f2f2f2;
+}
+#balance .balance-value{
+    font-size:0.36rem;
+    color: #fff;
+    line-height:100%;
+}
+#balance .balance-current{
+    margin-top:1.02rem;
+    font-size:0.28rem;
+    color: #b2b2b2;
+}
+#vip-explain {
+    margin-top: 0.33rem;
+    margin-bottom:1rem;
+}
+#vip-explain table{
+    width:6.9rem;
+    margin: 0 auto;
+    border-spacing: 0.02rem;
+}
+#vip-explain table th,
+#vip-explain table td{
+    text-align: center;
+    width:0.98rem;
+    border-color: #f00;
+    height:0.86rem;
+    line-height:125%;
+}
+#vip-explain table th{
+    background-color: #4cc3ff;
+    color: #fff;
+    font-weight:normal;
+    font-size:0.18rem;
+}
+#vip-explain table td{
+    color: #919191;
+    background-color: #f2f2f2;
+    font-size:0.24rem;
+}
+#vip-explain table th:nth-of-type(1),
+#vip-explain table td:nth-of-type(1){
+    width:1.88rem;
+}
+.base-footer div{
+    width:6.9rem;
+    height:0.8rem;
+    line-height:0.8rem;
+}

@@ -1,0 +1,53 @@
+#search {
+    margin-top: 0.1rem;
+}
+
+#search .search-addr {
+    width: 6.9rem;
+    margin: 0 auto;
+    padding: 0.1rem;
+    background-color: #fff;
+}
+
+#search .search-addr img {
+    float: left;
+    width: 0.28rem;
+    height: 0.36rem;
+    margin-top: 0.12rem;
+    margin-left: 0.17rem;
+}
+
+#search .search-addr input {
+    float: right;
+    width: 6rem;
+    height: 0.6rem;
+    background-color: #f2f2f2;
+    font-size: 0.24rem;
+    padding-left: 0.22rem;
+}
+
+#search .map {
+    margin-top: 0.1rem;
+    height: 4rem;
+    background-color: #4cc3ff;
+    color: #fff;
+    line-height: 4rem;
+    font-size: 0.36rem;
+    text-align: center;
+}
+#nearBy {
+    line-height:0.28rem;
+    color: #333;
+    line-height:150%;
+    background-color: #fff;
+}
+.amap_lib_placeSearch .poibox .poi-info p {
+    font-size:0.12rem;
+}
+.amap-content-body.amap-pl-pc{
+    display: none;
+}
+.auto-item{
+    font-size:0.2rem;
+    line-height:150%;
+}

@@ -1,0 +1,197 @@
+body {
+    background-color: #fafafa;
+    height:auto;
+    padding-bottom:1rem;
+}
+#banner img{
+    width:7.5rem;
+    height:3rem;
+}
+
+#vip_discount {
+    margin-top: 0.12rem;
+}
+
+#vip_discount {
+    padding: 0 0.3rem;
+    line-height: 1rem;
+    border-bottom: 1px solid #ccc;
+    background: #fff url(../img/baseUi/right_blue.png) no-repeat right 0.3rem top 50% /0.15rem 0.27rem;
+}
+
+#vip_discount img {
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-right: 0.22rem;
+}
+#vip_discount span{
+    color: #e06741;
+}
+#vip_discount a {
+    float: right;
+    color: #4cc3ff;
+    padding-right: 0.28rem;
+}
+
+#service_explain {
+    margin-top: 0.12rem;
+    padding: 0 0.3rem;
+}
+
+#service_explain table {
+    border-collapse: collapse;
+    width: 6.9rem;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+    vertical-align: middle;
+}
+
+#service_explain table th,
+#service_explain table td {
+    width: 33.33%;
+    border: 1px solid #fafafa;
+    line-height: 120%;
+}
+
+#service_explain table th {
+    height: 0.8rem;
+    background-color: #4cc3ff;
+    color: #fff;
+    font-weight:500;
+}
+
+#service_explain table td {
+    color: #919191;
+    height: 1rem;
+}
+
+#service_explain table td p {
+    color: #919191;
+}
+
+/*表格下方温馨提示的公共样式*/
+#service_explain .warmPrompt {
+    color: #919191;
+    padding:0.14rem 0.23rem 0.56rem 0.23rem;
+}
+
+#service_explain .warmPrompt h4 {
+    line-height: 180%;
+    font-size: 0.24rem;
+}
+
+#service_explain .warmPrompt li {
+    font-size: 0.2rem;
+    line-height: 150%;
+}
+
+/*表格下方备注的公共样式*/
+#service_explain .table-remark {
+    color: #919191;
+    font-size: 0.2rem;
+    padding-top:0.2rem;
+}
+
+/*上方标题 下方列表 的公共样式 如果没有备注或者温馨提示 那就不填*/
+#service_explain .service-detail {
+    margin: 0.12rem 0;
+    background-color: #fff;
+}
+
+#service_explain .service-detail h4 {
+    line-height: 0.73rem;
+    background-color: #f3f4f8;
+    padding-left: 0.2rem;
+}
+
+#service_explain .service-detail ul {
+    padding: 0.2rem;
+    color: #919191;
+    font-size: 0.24rem;
+}
+
+#service_explain .service-detail li {
+    line-height: 150%;
+}
+
+#service_explain .service-detail .remark p {
+    padding: 0 0.2rem;
+    color: #919191;
+    font-size: 0.2rem;
+}
+
+#service_explain .service-detail .remark-warm p {
+    padding: 0 0.2rem;
+    color: #b2b2b2;
+    font-size: 0.2rem;
+    padding-bottom:0.16rem;
+}
+
+#service_explain .service-process {
+    width:7.5rem;
+    background-color: #fff;
+    margin-top: 0.3rem;
+    margin-left:-0.3rem;
+    padding:0 0.3rem;
+}
+
+#service_explain .service-process h3 {
+    line-height: 300%;
+    text-align: center;
+}
+
+#service_explain .service-process .process-detail {
+    text-align: center;
+    padding-bottom: 0.42rem;
+}
+
+#service_explain .service-process .process-detail li {
+    padding-top: 0.42rem;
+    width: 50%;
+    float: left;
+
+}
+
+#service_explain .service-process .process-detail li img {
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 0.22rem;
+    padding-bottom:0.18rem;
+}
+
+#service_explain .service-process .process-detail li p {
+    width:3rem;
+    margin: 0 auto;
+    font-size: 0.2rem;
+    color: #919191;
+    line-height: 180%;
+}
+
+#service_explain .question{
+    line-height:150%;
+    background-color: #fff;
+}
+#service_explain .question h4{
+    line-height: 0.73rem;
+    background-color: #f3f4f8;
+    padding-left: 0.2rem;
+}
+#service_explain .question h5{
+    font-size:0.24rem;
+    padding-left: 0.2rem;
+    padding-top:0.16rem;
+}
+#service_explain .question span{
+    color: #4cc3ff;
+    font-size:0.24rem;
+}
+#service_explain .question p {
+    padding-left: 0.2rem;
+    font-size:0.2rem;
+    color: #919191;
+}
+.base-footer div{
+    width:6.9rem;
+}
+

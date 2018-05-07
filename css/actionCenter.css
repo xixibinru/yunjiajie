@@ -1,0 +1,34 @@
+#action_center{
+    padding:0 0.3rem;
+    background-color: #fff;
+    margin-bottom:1.2rem;
+}
+#action_center li {
+    padding-top:0.4rem;
+    border-bottom:0.12rem solid #fafafa;
+}
+#action_center li .banner{
+    width:6.9rem;
+    height:3rem;
+    background: url(../img/actionCenter/actionCenter_bannar.jpg) no-repeat 0 0/6.9rem 3rem;
+    border-radius: 0.2rem;
+    box-shadow: 1px 0.02rem 0.05rem 0.05rem #ebebeb;
+}
+#action_center li p {
+    position: relative;
+    line-height:1rem;
+    font-size:0.28rem;
+    padding-left:0.64rem;
+}
+#action_center li p::before{
+    position: absolute;
+    top:0.33rem;
+    left:0;
+    content: '';
+    width:0.36rem;
+    height:0.36rem;
+    background: url(../img/actionCenter/time.png) no-repeat 0 0/0.36rem 0.36rem;
+}
+#action_center li p span{
+    color: #ec6941;
+}

@@ -1,0 +1,158 @@
+
+#buyVip{
+    padding: 0 0.3rem;
+    background-color: #fff;
+}
+#buyVip .buyVip-yearCard {
+    background-color: #fff;
+}
+
+#buyVip .buyVip-yearCard h3 {
+    height:0.7rem;
+    line-height:0.7rem;
+    color: #333;
+    font-weight: normal;
+}
+
+#buyVip .buyVip-yearCard table {
+    width: 6.9rem;
+    border-spacing: 0.02rem;
+}
+
+#buyVip .buyVip-yearCard table th,
+#buyVip .buyVip-yearCard table td {
+    width: 25%;
+    font-size: 0.24rem;
+    text-align: center;
+    height: 0.8rem;
+    color: #333;
+    line-height:120%;
+}
+
+#buyVip .buyVip-yearCard table th {
+    background-color: #4cc3ff;
+    color: #fff;
+    font-weight: normal;
+}
+
+#buyVip .buyVip-yearCard table td {
+    background-color: #f2f2f2;
+}
+#buyVip .buyVip-yearCard ul {
+    margin-top:0.4rem;
+}
+
+#buyVip  li {
+    position: relative;
+    height:1rem;
+    border-bottom:1px solid #f2f2f2;
+    padding:0.1rem 0;
+}
+#buyVip  p {
+    color: #919191;
+    line-height: 170%;
+}
+#buyVip  li p:nth-of-type(1) {
+    padding-left:0.05rem;
+}
+#buyVip  li p:nth-of-type(2) {
+    color: #f00;
+}
+#buyVip  li a {
+    position: absolute;
+    right: 0;
+    top:0.09rem;
+    width:1.4rem;
+    height:0.8rem;
+    line-height:0.8rem;
+    font-size:0.24rem;
+    color: #fff;
+    text-align: center;
+    background-color: #f15c5c;
+    border-radius: 0.1rem;
+}
+#buyVip .buyVip-yearCard > p {
+    line-height:1rem;
+    border-bottom:0.22rem solid #f2f2f2;
+}
+#buyVip .vip-explain {
+    background-color: #fff;
+    padding-top:3.6%;
+}
+#buyVip .vip-explain table{
+    width:100%;
+    border-spacing: 2px;
+}
+#buyVip .vip-explain table th,
+#buyVip .vip-explain table td{
+    text-align: center;
+    width:15%;
+    padding:5% 0;
+    font-size:0.2rem;
+    border-color: #f00;
+}
+#buyVip .vip-explain table th{
+    background-color: #4cc3ff;
+    color: #fff;
+    font-weight:normal;
+}
+#buyVip .vip-explain table td{
+    color: #919191;
+    background-color: #f2f2f2;
+}
+#buyVip .vip-explain table th:nth-of-type(1),
+#buyVip .vip-explain table td:nth-of-type(1){
+    width:25%;
+}
+#buyExplain{
+    padding:0 0.3rem;
+    padding-top:0.5rem;
+    background-color: #f7faff;
+}
+#buyExplain .line{
+    border-bottom: 1px solid #b3b3b3;
+}
+#buyExplain h3{
+    font-size:0.24rem;
+    color: #919191;
+    text-align: center;
+    margin: 0 auto;
+    width:1.7rem;
+    background-color: #f7faff;
+    margin-top:-0.12rem;
+}
+#buyExplain ul {
+    margin-top:0.22rem;
+}
+#buyExplain li {
+    font-size:0.2rem;
+    line-height:250%;
+    color: #919191;
+}
+#buyExplain p {
+    font-size:0.2rem;
+    line-height:250%;
+    color: #919191;
+}
+#footer {
+    position: static;
+    padding:0.3rem;
+    background-color: #f7faff;
+}
+#footer .services-phone {
+    width: 3rem;
+    height:0.8rem;
+    line-height:0.8rem;
+    margin: 0 auto;
+    color: #4cc3ff;
+    border: 1px solid #4cc3ff;
+    border-radius: 1rem;
+    font-size:0.24rem;
+    text-align: center;
+}
+#footer p {
+    font-size:0.24rem;
+    text-align: center;
+    margin-top: 0.34rem;
+    color: #919191;
+}

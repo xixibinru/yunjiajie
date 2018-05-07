@@ -1,0 +1,30 @@
+#weChatFriends {
+    margin-top: 1.84rem;
+}
+#weChatFriends img {
+    display: block;
+    width: 2.76rem;
+    height: 3.48rem;
+    margin: 0 auto;
+}
+#weChatFriends p {
+    margin-top: 0.85rem;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #333;
+}
+#weChatFriends div {
+    width:3.6rem;
+    height:0.8rem;
+    margin: 0 auto;
+    margin-top:0.6rem;
+    color: #fff;
+    background-color: #4cc3ff;
+    text-align: center;
+    line-height:0.8rem;
+    border-radius:1rem;
+}
+#weChatFriends div a {
+    color: #fff;
+    display: block;
+}

@@ -1,0 +1,27 @@
+#service_list{
+    margin-top:0.12rem;
+}
+#service_list li{
+    padding:0.3rem 0.3rem 0 1.38rem;
+    height:1.4rem;
+    line-height:150%;
+    vertical-align: middle;
+    background-color: #fff;
+}
+#service_list li+li{
+    margin-top:0.12rem;
+}
+
+#service_list li img{
+    position: absolute;
+    left:0.3rem;
+    width:0.8rem;
+    height:0.8rem;
+    border-radius: 50%;
+}
+#service_list li h4{
+    color: #000;
+}
+#service_list li p{
+    color: #919191;
+}

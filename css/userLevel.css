@@ -1,0 +1,115 @@
+.base-header span > a {
+    color: #e06741;
+    font-size:0.28rem;
+}
+#point {
+    background-color: #fff;
+}
+#point .bg{
+    height:3.02rem;
+    text-align: center;
+    padding-top:1rem;
+    background: url(../img/userLevel/point_02.png) no-repeat center 0.39rem/ 5.89rem 1.54rem;
+    border-bottom:1px solid #ccc;
+}
+#point .bg .point-value{
+    font-size:0.36rem;
+    color: #fff;
+    line-height:100%;
+}
+#point .bg .point-current{
+    margin-top:1.02rem;
+    font-size:0.28rem;
+    color: #b2b2b2;
+}
+#point .my-level{
+    width:6.9rem;
+    margin: 0 auto;
+
+    font-size:0.28rem;
+    color: #333;
+    border-bottom:1px solid #ccc;
+}
+#point .my-level .psp{
+    line-height:1rem;
+}
+#point .my-level .psp a {
+    float: right;
+    color: #919191;
+}
+#point .level-detail ol{
+    font-size:0;
+    height:0.28rem;
+}
+#point .level-detail ol:nth-of-type(1){
+    padding-bottom:0.1rem;
+}
+
+#point .level-detail ol:nth-of-type(2){
+    padding-top:0.08rem;
+}
+
+#point .level-detail li{
+    font-size:0.2rem;
+    display: inline-block;
+}
+#point .level-detail li:nth-of-type(1){
+    width:0.96rem;
+}
+#point .level-detail li:nth-of-type(2){
+    width:1.4rem;
+}
+#point .level-detail li:nth-of-type(3){
+    width:1.82rem;
+}
+#point .level-detail li:nth-of-type(4){
+    width:2.28rem;
+}
+#point .level-detail li:nth-of-type(5){
+    width:0.44rem;
+}
+#point .level-detail .gradient {
+    border-radius: 1rem;
+    width:6.9rem;
+    height:0.08rem;
+    background-image:linear-gradient(to right, #f3dfd1 , #f4e6aa 13.9%, #fbfe47 34.2%, #fff000 60.58%,#ff8100 93.6%,#ff790c);
+}
+#point .my-level .level-up{
+    font-size:0.2rem;
+    color: #000;
+    line-height:0.88rem;
+}
+#point .my-level .level-up em{
+    font-size:0.28rem;
+    font-weight:700;
+}
+#vip_privilege{
+    background-color: #fff;
+    color: #333;
+}
+#vip_privilege dt,
+#vip_privilege dd{
+    border-bottom:1px solid #e6e6e6;
+    padding:0 0.3rem;
+}
+#vip_privilege dt{
+    line-height:1rem;
+    font-size:0.28rem;
+}
+#vip_privilege div{
+    height:1.42rem;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#vip_privilege div + div{
+    padding-left:0.9rem;
+}
+#vip_privilege div img{
+    width:0.6rem;
+    height:0.6rem;
+}
+#vip_privilege div p {
+    margin-top:0.12rem;
+}
+

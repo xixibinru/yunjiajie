@@ -1,0 +1,39 @@
+#coupon .cdkey {
+    padding: 0.1rem 0.3rem;
+    background-color: #fff;
+}
+
+#coupon .cdkey .input {
+    width: 5rem;
+    height: 0.84rem;
+    background-color: #ededed;
+    padding-left: 0.14rem;
+    margin-right: 0.2rem;
+    border-radius: 0.1rem;
+    font-size: 0.28rem;
+}
+
+#coupon .cdkey .exchange {
+    width: 1.6rem;
+    height: 0.84rem;
+    background-color: #4cc3ff;
+    color: #fff;
+    border-radius: 0.1rem;
+    font-size: 0.28rem;
+}
+
+#coupon p {
+    line-height:1rem;
+    text-align: center;
+    font-size:0.2rem;
+    color: #919191;
+}
+#coupon .my-coupon li{
+    width:6.9rem;
+    margin: 0 auto;
+    margin-bottom: 0.1rem;
+}
+#coupon .my-coupon li img{
+    width: 6.9rem;
+    height:2.4rem;
+}

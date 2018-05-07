@@ -1,0 +1,35 @@
+#edit_addr {
+    color: #333;
+    line-height:1rem;
+}
+#edit_addr > p{
+    line-height:0.72rem;
+    color: #919191;
+    text-align: center;
+    font-size:0.24rem;
+}
+#edit_addr li {
+    height:1rem;
+
+    padding: 0 0.3rem;
+    border-bottom:1px solid #ccc;
+    background-color: #fff;
+}
+#edit_addr li a {
+    display: block;
+}
+#edit_addr li img{
+    width:0.3rem;
+    height:0.36rem;
+    margin-right:0.22rem;
+}
+#edit_addr .default {
+    padding: 0 0.3rem;
+    margin-top: 0.1rem;
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+}
+#edit_addr .default label {
+    float: right;
+    margin-top: 0.3rem;
+}

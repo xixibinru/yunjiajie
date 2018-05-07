@@ -1,0 +1,26 @@
+#couponExplain{
+    background-color: #fff;
+    padding: 0 0.3rem 0.5rem 0.3rem;
+}
+#couponExplain h3 {
+    padding-top:0.1rem;
+    padding-left:0.38rem;
+    color: #333;
+    line-height:220%;
+}
+#couponExplain h3::before{
+    position: absolute;
+    width:0.16rem;
+    height:0.16rem;
+    background-color: #4cc3ff;
+    border-radius: 50%;
+    content:'';
+    margin-top:0.24rem;
+    margin-left:-0.38rem;
+}
+#couponExplain p {
+    color: #919191;
+    line-height:150%;
+    letter-spacing: 0.1em;
+}
+

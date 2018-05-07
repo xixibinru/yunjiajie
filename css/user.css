@@ -1,0 +1,231 @@
+body{
+    padding-top:0;
+    background-color: #fafafa;
+}
+/*签到遮罩层*/
+#mask_signIn{
+    padding-top:8.48rem;
+    position: fixed;
+    z-index:1;
+    width:7.5rem;
+    height:100%;
+    background: url(../img/user/signIn.jpg) no-repeat 0 0 /100%;
+}
+#mask_signIn i {
+    position: absolute;
+    top:0.87rem;
+    right:0.4rem;
+    width:0.52rem;
+    height:0.52rem;
+    border: 1px solid #ccc;
+    color: #ccc;
+    font-size:0.4rem;
+    text-align: center;
+    border-radius: 50%;
+    line-height:0.45rem;
+}
+#mask_signIn p {
+    text-align: center;
+    color: #fff;
+    font-size:0.26rem;
+    line-height:100%;
+}
+#mask_signIn .credits-shop{
+    width:3.2rem;
+    margin: 0 auto;
+    height:0.9rem;
+    border-radius:1rem;
+    border:1px solid #fff;
+    text-align: center;
+    line-height:0.88rem;
+    color: #fff;
+    margin-top:0.7rem;
+}
+#userInfo {
+    width: 7.5rem;
+    height: 3.16rem;
+    background-color: #4cc3ff;
+    padding: 0 0.3rem;
+}
+
+#userInfo .setting {
+    position: absolute;
+    top: 0.32rem;
+    right: 0.3rem;
+    width: 0.32rem;
+}
+
+#userInfo .user {
+    padding-top: 0.73rem;
+}
+
+#userInfo .head-portrait {
+
+    padding-left: 0.01rem;
+    float: left;
+}
+
+#userInfo .head-portrait img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+#userInfo .user-data {
+    float: left;
+    padding-left: 0.35rem;
+    padding-top: 0.33rem;
+    line-height:100%;
+    color: #fff;
+}
+#userInfo .user-data .user-data-name{
+    font-size:0.28rem;
+    color: #fff;
+}
+#userInfo .user-data .user-data-info{
+    font-size:0.24rem;
+    padding-top:0.12rem;
+    color: #fff;
+}
+#userInfo .user-level{
+    width:1.82rem;
+    height:0.54rem;
+    background-color: #3588b2;
+    float: right;
+    margin-top:0.46rem;
+    margin-right:-0.3rem;
+    border-radius: 1rem 0 0 1rem;
+    padding: 0.04rem;
+}
+#userInfo .user-level div {
+    float: left;
+    width:0.47rem;
+    height:0.47rem;
+    background-color: #4cc3ff;
+    border-radius: 50%;
+    text-align: center;
+    padding-top:0.05rem;
+}
+#userInfo .user-level div img {
+    width:0.32rem;
+    height:0.32rem;
+    line-height:0.47rem;
+}
+#userInfo .user-level p{
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-size:0.24rem;
+    line-height:0.47rem;
+    width:1.26rem;
+}
+#nav {
+    position: relative;
+    height:2.04rem;
+    background-color: #fafafa;
+}
+#nav .nav{
+    width:6.4rem;
+    height:2.3rem;
+    position: absolute;
+    left:0;
+    right: 0;
+    bottom: 0.34rem;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,.95);
+    border-radius: 0.2rem;
+    box-shadow: 0.02rem 0.08rem 0.17rem #d5ebf5;
+    padding:0.38rem 0.55rem 0 0.55rem;
+}
+#nav .nav li {
+    float: left;
+}
+#nav .nav li +li{
+    margin-left:1.15rem;
+}
+#nav .nav li img {
+    width:1rem;
+    height:1rem;
+}
+#nav .nav li p {
+    font-size:0.24rem;
+    text-align: center;
+    line-height:100%;
+    padding-top:0.2rem;
+}
+#task{
+    background-color: #fff;
+}
+#task h3{
+    height:0.99rem;
+    border-bottom:1px solid #e6e6e6;
+    padding: 0 0.3rem;
+}
+#task h3 p{
+    float: left;
+    line-height:0.99rem;
+}
+#task h3 a{
+    float: right;
+    font-size:0.22rem;
+    line-height:0.99rem;
+    padding-right:0.22rem;
+    background: url(../img/user/right.png) no-repeat right center/0.12rem 0.2rem;
+}
+#task .task-content{
+    padding:0.3rem;
+    border-bottom: 0.1rem solid #f2f2f2;
+}
+#task .task-content li {
+    float: left;
+    text-align: center;
+    width:2.3rem;
+}
+#task .task-content li img {
+    width: 0.45rem;
+    height: 0.45rem;
+}
+#task .task-content a p{
+    padding-top:0.25rem;
+}
+#task .task-content li> p{
+    padding-top:0.15rem;
+    font-size:0.2rem;
+    color: #919191;
+}
+#message {
+    background-color: #fff;
+    margin-bottom: 1.6rem;
+}
+#message li {
+    height:1rem;
+    padding:0 0.3rem;
+    border-bottom:1px solid #e6e6e6;
+    line-height:1rem;
+}
+#message li a{
+    display: block;
+    background: url(../img/user/right.png) no-repeat right center/0.12rem 0.2rem;
+}
+
+#message li img{
+    width:0.35rem;
+    height:0.35rem;
+    margin-right:0.28rem;
+}
+#message li .message-info{
+    float: right;
+    width:0.28rem;
+    height:0.28rem;
+    background-color: #f1440f;
+    border-radius: 50%;
+    line-height:0.28rem;
+    text-align: center;
+    color: #fff;
+    margin-right:0.22rem;
+    margin-top:0.36rem;
+}
+
+
+
+
+

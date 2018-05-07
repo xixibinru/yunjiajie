@@ -1,0 +1,31 @@
+#solution {
+    background-color: #fff;
+}
+#solution h3{
+    padding:0 0.3rem;
+    line-height:0.99rem;
+    border-bottom:1px solid #ccc;
+}
+#solution h3 img {
+    float: right;
+    margin-top:0.45rem;
+    width:0.2rem;
+    height:0.12rem;
+}
+#solution h3 img.rotate{
+    transform: rotate(180deg);
+}
+#solution p {
+    padding: 0.24rem 0.3rem;
+    line-height:150%;
+    color: #919191;
+    border-bottom:1px solid #ccc;
+}
+.base-footer {
+    padding:0.2rem 0.3rem;
+}
+.base-footer div{
+    width:2.42rem;
+    height:0.6rem;
+    line-height:0.6rem;
+}

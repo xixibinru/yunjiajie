@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/baseUI.css">
+    <link rel="stylesheet" href="css/buyNow.css">
+    <title>云家洁</title>
+</head>
+<body>
+<script src="js/Base-init.js"></script>
+<header class="base-header">
+    <a class="goBack" href="user.html"></a>立即购买
+</header>
+
+<section id="verifyInfo">
+    <h3>信息核对 <span></span></h3>
+    <div class="info">
+        <p>购买账户 <span class="phoneNumber">13811111111</span></p>
+        <p>购买金额 <span class="money">200.00元</span></p>
+        <p>会员卡名称 <span class="vipName">专享家政VIP1</span></p>
+        <p>可用余额 <span class="balance">200.00元</span></p>
+    </div>
+</section>
+<section id="vipDiscount">
+    <h3>会员卡特权</h3>
+    <table>
+        <thead>
+        <tr>
+            <th>特权类型</th>
+            <th>折扣</th>
+            <th>特权类型</th>
+            <th>折扣</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>日常保洁</td>
+            <td></td>
+            <td>月嫂保姆</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>家电维修</td>
+            <td></td>
+            <td>新居开荒</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>家电清洗</td>
+            <td></td>
+            <td>家居护理</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>跑腿</td>
+            <td></td>
+            <td>擦玻璃</td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+<section id="payment_mode">
+    <h3>支付方式</h3>
+    <ul>
+        <li>
+            <img src="img/buyNow/alipay.png" alt="">
+            <h4>支付宝支付</h4>
+            <p>支付宝账户支付，银行卡支付</p>
+            <input type="radio" class="checkbox" name="pay" id="alipay">
+            <label for="alipay"></label>
+        </li>
+        <li>
+            <img src="img/buyNow/weChatPay.png" alt="">
+            <h4>微信支付</h4>
+            <p>微信账户支付</p>
+            <input type="radio" class="checkbox" name="pay" id="weChatPay">
+            <label for="weChatPay"></label>
+        </li>
+    </ul>
+</section>
+<section id="payment">
+    <div class="agreement">
+        <input type="checkbox" class="checkbox" id="agree">
+        <label for="agree"></label>
+        <a href="#">阅读并同意《云家洁会员协议》</a>
+    </div>
+    <div class="confirm">确认支付</div>
+</section>
+<section id="mask_confirm_pay">
+    <p>是否确认付款</p>
+    <div class="confirm">确认</div>
+    <div class="cancel">取消</div>
+</section>
+</body>
+</html>

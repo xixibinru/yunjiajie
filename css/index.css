@@ -1,0 +1,81 @@
+body{
+    padding:0;
+}
+
+
+
+#banner {
+    position: relative;
+    padding-top:0.18rem;
+    height:3.04rem;
+    overflow: hidden;
+    background-color: #fff;
+}
+#banner li{
+    position: absolute;
+    background-size: cover;
+}
+#banner li:nth-of-type(1){
+    background-image: url(../img/index/bannar1.jpg);
+}
+#banner li:nth-of-type(2){
+    background-image: url(../img/index/bannar2.jpg);
+}
+#banner li:nth-of-type(3){
+    background-image: url(../img/index/bannar3.jpg);
+}
+
+#nav {
+    height: 3.76rem;
+    padding: 0 0.3rem;
+    background-color: #fff;
+    border-bottom: 0.12rem solid #fafafa;
+}
+
+#nav li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 0.36rem;
+}
+#nav li img{
+    width:0.8rem;
+    height:0.8rem;
+}
+
+#nav li p {
+    padding-top: 0.18rem;
+    color: #4c4c4c;
+}
+
+#activity {
+    padding:0 0.3rem 1.8rem 0.3rem;
+    background-color: #fff;
+}
+#activity h3{
+    line-height:0.8rem;
+    color: #4c4c4c;
+    background: url(../img/index/popular_activities.png) no-repeat left 1.34rem top 0.33rem/2.09rem 0.21rem;
+}
+#activity ul li {
+    float: left;
+    width:50%;
+}
+#activity ul li .activity-bg{
+    width:3.3rem;
+    height:2rem;
+}
+#activity ul li:nth-of-type(1) .activity-bg{
+    background: #fe9ea9 url(../img/index/gift.png) no-repeat center center/1.18rem 1.1rem;
+}
+#activity ul li:nth-of-type(2) .activity-bg{
+    background: #3a94f0 url(../img/index/vip_card.png) no-repeat center center/1.23rem 1.01rem;;
+}
+#activity ul li h4{
+    color: #4c4c4c;
+    padding-top:0.3rem;
+}
+#activity ul li p {
+    color: #808080;
+    padding-top:0.12rem;
+}

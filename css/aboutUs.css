@@ -1,0 +1,12 @@
+
+#banner {
+    height:2.1rem;
+    background: url(../img/aboutUs/logo.png) no-repeat center center/3.35rem 1rem;
+}
+.base-ul span{
+    float: right;
+}
+.base-ul li:nth-of-type(1),
+.base-ul li:nth-of-type(3){
+    background-image: none;
+}

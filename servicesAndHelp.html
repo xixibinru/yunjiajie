@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/baseUI.css">
+    <link rel="stylesheet" href="css/servicesAndHelp.css">
+    <title>云家洁</title>
+</head>
+<body>
+<script src="js/Base-init.js"></script>
+<section id="mask_unOpen">敬请期待</section>
+<header class="base-header">
+    <a class="goBack" href="user.html"></a>客服与帮助
+</header>
+<main id="question">
+    <h3>常见问题</h3>
+    <ul class="common-question base-ul">
+        <li><a href="solution.html#/FAQ">近期都有什么优惠活动？</a></li>
+    </ul>
+    <h3>特殊问题</h3>
+    <ul class="special-question clearfix">
+        <li class="unOpen">
+            <img src="img/servicesAndHelp/FAQ_coupon.png" alt="">
+            <p>优惠券问题</p>
+        </li>
+        <li class="unOpen">
+            <img src="img/servicesAndHelp/FAQ_indent.png" alt="">
+            <p>订单问题</p>
+        </li>
+        <li class="unOpen">
+            <img src="img/servicesAndHelp/FAQ_member.png" alt="">
+            <p>会员问题</p>
+        </li>
+        <li class="unOpen">
+            <img src="img/servicesAndHelp/FAQ_pay.png" alt="">
+            <p>支付问题</p>
+        </li>
+    </ul>
+</main>
+<footer id="footer" class="base-footer">
+    <div @click="showPhoneNumber">联系客服</div>
+</footer>
+<section class="mask-service-phone" v-show="show">
+    <div class="wrap">
+        <i @click="closePhoneNumber">×</i>
+        <div class="phoneNumber">客服热线:0577-88835715</div>
+        <div class="dial">确认拨号</div>
+    </div>
+</section>
+<script src="lib/vue/vue.js"></script>
+<script src="lib/jQuery/jquery-3.2.1.js"></script>
+<script src="js/base-unOpen.js"></script>
+<script src="js/baseCustomerService.js"></script>
+</body>
+</html>

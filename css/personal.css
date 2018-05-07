@@ -1,0 +1,135 @@
+#personal {
+    margin-top: 0.18rem;
+    margin-bottom: 5.4rem;
+    background-color: #f2f2f2;
+}
+
+#personal li {
+    background-color: #fff;
+}
+
+#personal li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#personal .headPortrait {
+    height: 1.2rem;
+    line-height: 1.19rem;
+    margin-bottom: 0.12rem;
+}
+
+#personal .headPortrait div {
+    float: right;
+    margin-right: 0.24rem;
+    margin-top: 0.2rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    background: url(../img/personal/headPortrait.png) no-repeat center center/0.8rem 0.8rem;
+}
+
+#personal input[type="text"] {
+    float: right;
+    margin-right: 0.28rem;
+    font-size: 0.28rem;
+    color: #333;
+    margin-top: 0.3rem;
+    text-align: right;
+    width: 5.5rem;
+}
+
+#personal .level div,
+#personal .sex span,
+#personal .birth span {
+    float: right;
+    margin-right: 0.3rem;
+}
+#personal .level a{
+    display: block;
+}
+#personal .level img {
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-right: 0.1rem;
+}
+
+#personal .telephoneNumber {
+    margin-top: 0.12rem;
+}
+#personal .birth #birth {
+    position: absolute;
+    visibility: hidden;
+}
+#personal .birth label {
+    display: block;
+}
+
+
+
+#mask {
+    display: block;
+    position: fixed;
+    width: 7.5rem;
+    height: 100%;
+    top: 0;
+    padding: 0 0.3rem;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: 3;
+}
+
+#mask .userInfo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 6.9rem;
+    font-size: 0.32rem;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1rem;
+}
+
+#mask > .userInfo li + li {
+    border-top: 0.02rem solid #a9a9a9;
+}
+
+#mask > .userInfo li:nth-of-type(1) {
+    color: #919191;
+}
+
+#mask > .userInfo li:nth-of-type(4) {
+    color: #e06741;
+}
+.gearDate {
+    left:0;
+    right:0;
+    bottom: 0;
+    width:7.5rem;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,.3);
+    z-index: 3;
+}
+.date_ctrl {
+    padding:0 0.3rem;
+    background-color: #fff;
+}
+.date_btn_box{
+    background-color: #fff;
+}
+.date_btn {
+    line-height: 0.9rem;
+    padding: 0;
+    font-size:0.24rem;
+    color: #ce4447;
+}
+.date_ctrl {
+    font-size:0.15rem;
+}
+
+
+
+

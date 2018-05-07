@@ -1,0 +1,101 @@
+#prompt {
+    padding:0.2rem 0.3rem;
+    line-height:150%;
+    font-size:0.24rem;
+    color: #333;
+    text-indent: 2em;
+    background-color: #fff;
+}
+#download{
+    padding:0 0.3rem;
+    background-color: #fff;
+}
+#download .one {
+    float: left;
+    width:45%;
+    text-align: center;
+}
+#download  h3 {
+    position: relative;
+    text-align: right;
+    line-height: 0.6rem;
+    color: #4cc3ff;
+    font-weight: 700;
+    border-bottom: 1px solid #ccc;
+    font-size: 0.32rem;
+}
+#download  h3::after{
+    content: 'STEP';
+    font-size:0.24rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    line-height:100%;
+    background-color: #fff;
+}
+#download  h3 span{
+    float: left;
+    font-size:0.6rem;
+}
+#download .one img.qrCode {
+    display: block;
+    margin: 0 auto;
+    margin-top:0.2rem;
+    width:2.6rem;
+    height:2.6rem;
+}
+#download .one p {
+    padding-top:0.2rem;
+    line-height:150%;
+}
+#download .one  a {
+    display: block;
+    width: 2.6rem;
+    margin: 0 auto;
+    line-height:0.8rem;
+    background-color: #4cc3ff;
+    color: #fff;
+    border-radius: 0.1rem;
+    margin-top:0.2rem;
+}
+#download .two {
+    float: right;
+    width:45%;
+}
+#download .two .gift{
+    position: relative;
+    padding-top:0.2rem;
+    height:3rem;
+}
+#download .two img{
+    display: block;
+    margin: 0 auto;
+}
+#download .two img.gift_1{
+    width:1.89rem;
+    height:1.83rem;
+    transition: transform .3s ease-out 0s;
+}
+#download .two img.gift_2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 1.22rem;
+    height: 1.28rem;
+    transform: translateX(-0.1rem);
+    transition: height .3s ease-out 0s;
+}
+#download .two .gift:hover img.gift_1,
+#download .two .scale img.gift_1{
+    transform: scale(1.4);
+}
+#download .two .gift:hover img.gift_2,
+#download .two .scale img.gift_2{
+    height: 1rem;
+}
+#download .two p {
+    padding-top:0.2rem;
+    line-height:150%;
+}

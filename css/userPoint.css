@@ -1,0 +1,84 @@
+#point{
+    background-color: #fff;
+}
+#point .bg{
+    height:3.02rem;
+    text-align: center;
+    padding-top:1rem;
+    background: url(../img/userPoint/point.png) no-repeat center 0.39rem/ 5.89rem 1.54rem;
+    border-bottom:1px solid #ccc;
+}
+#point .bg .point-value{
+    font-size:0.36rem;
+    color: #fff;
+    line-height:100%;
+}
+#point .bg .point-current{
+    margin-top:1.02rem;
+    font-size:0.28rem;
+    color: #b2b2b2;
+}
+#point li{
+    float: left;
+    line-height:1rem;
+    width:50%;
+    text-align: center;
+    color: #4cc3ff;
+    font-size:0.28rem;
+}
+#point li img {
+    width:0.4rem;
+    height:0.4rem;
+    margin-right:0.28rem;
+}
+#point_detail dl{
+    font-size:0.24rem;
+    color: #333;
+    background-color: #fff;
+}
+#point_detail dt {
+    text-align: center;
+    line-height:0.96rem;
+    background-color: #f2f2f2;
+}
+#point_detail dt span{
+    position: relative;
+    display: inline-block;
+    width:0.14rem;
+    height:0.14rem;
+    border:0.02rem solid #333;
+    margin-top:0.1rem;
+
+}
+#point_detail dt span::before {
+    position: absolute;
+    content: '';
+    top:0.32rem;
+    left: -0.45rem;
+    transform: rotate(-45deg);
+    width: 0.52rem;
+    border-bottom: 0.02rem solid #333;
+}
+#point_detail dt .style-left{
+    transform: rotate(45deg);
+    right:0.54rem;
+}
+#point_detail dt .style-right{
+    transform: rotate(-135deg);
+    left: 0.54rem;
+}
+#point_detail dd{
+    height:1rem;
+    padding:0 0.3rem;
+    padding-top:0.22rem;
+    border-bottom:1px solid #ccc;
+    line-height:100%;
+}
+#point_detail dd .method{
+    color: #333;
+}
+#point_detail dd .time{
+    padding-top:0.12rem;
+    font-size:0.22rem;
+    color: #919191;
+}

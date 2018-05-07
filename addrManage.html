@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/baseUI.css">
+    <link rel="stylesheet" href="css/addrManage.css">
+    <title>云家洁</title>
+</head>
+<body>
+<script src="js/Base-init.js"></script>
+<header class="base-header">
+    <a class="goBack" href="user.html"></a>地址管理
+</header>
+<section id="mask">
+    <img class="arrow" src="img/addrManage/arrow.png" alt="">
+    <img class="text" src="img/addrManage/text.png" alt="">
+    <img class="ok" src="img/addrManage/ok.png" alt="">
+</section>
+<main id="addrManage">
+    <div class="addr-lack">
+        <div class="addr-info addr-lack-info">
+            <p>缺少地址信息，请编辑不全 <span>13843838438</span></p>
+            <p>浙江省温州市</p>
+        </div>
+        <div class="addr-edit clearfix">
+            <div class="default">
+                <input type="checkbox" class="checkbox" id="set_default">
+                <label for="set_default"></label>
+                <span>设为默认</span>
+            </div>
+            <div class="delete"><a href="#"><img src="img/addrManage/delete.png" alt="删除">&nbsp&nbsp删除</a></div>
+            <div class="edit"><a href="editAddr.html"><img src="img/addrManage/edit.png" alt="编辑">&nbsp&nbsp编辑</a></div>
+        </div>
+    </div>
+    <ul>
+        <li>
+            <div class="addr-info">
+                <p>用户名称 <span>13843838438</span></p>
+                <p>浙江省温州市</p>
+            </div>
+            <div class="addr-edit clearfix">
+                <div class="default">
+                    <input type="checkbox" class="checkbox" id="set_default_00">
+                    <label for="set_default_00"></label>
+                    <span>设为默认</span>
+                </div>
+                <div class="delete"><a href="#"><img src="img/addrManage/delete.png" alt="删除">&nbsp&nbsp删除</a></div>
+                <div class="edit"><a href="editAddr.html"><img src="img/addrManage/edit.png" alt="编辑">&nbsp&nbsp编辑</a></div>
+            </div>
+        </li>
+    </ul>
+</main>
+<footer class="base-footer">
+    <a href="addNewAddr.html"><div><img src="img/addrManage/add.png" alt="">添加新地址</div></a>
+</footer>
+</body>
+</html>

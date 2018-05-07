@@ -1,0 +1,45 @@
+#exchangeInfo {
+    font-size:0.24rem;
+    color: #919191;
+}
+#exchangeInfo p{
+    background-color: #f2f2f2;
+    text-align: center;
+    line-height:1rem;
+}
+#exchangeInfo .phoneNumber,
+#exchangeInfo .verifyCode,
+#exchangeInfo .exchangeCode{
+    padding: 0.1rem 0.3rem;
+
+    border-bottom:1px solid #f2f2f2;
+    background-color: #fff;
+}
+#exchangeInfo input {
+    background-color: #f2f2f2;
+    font-size:0.24rem;
+    border-radius: 0.05rem;
+    padding-left: 0.22rem;
+    width:6.9rem;
+    height:0.84rem;
+    line-height: 0.84rem;
+}
+#exchangeInfo .verifyCode .verifyCode-input{
+    width:5.2rem;
+    margin-right:0.09rem;
+}
+#exchangeInfo .verifyCode .verifyCode-get{
+    padding:0;
+    width:1.6rem;
+    color: #fff;
+    background-color: #919191;
+}
+#exchangeInfo .exchange{
+    display: block;
+    width:6.9rem;
+    margin: 0 auto;
+    margin-top:0.3rem;
+    background-color: #4cc3ff;
+    color: #fff;
+    font-size:0.28rem;
+}

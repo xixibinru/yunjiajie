@@ -1,0 +1,252 @@
+
+
+/*敬请期待<section id="mask_unOpen">敬请期待</section> 给未开放的加class="unOpen"*/
+#mask_unOpen {
+    display: none;
+    position: fixed;
+    margin: 0 auto;
+    bottom: 1.5rem;
+    left: 0;
+    right: 0;
+    width: 2.5rem;
+    line-height: 0.28rem;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+/*
+    主页底部导航栏公共样式
+<footer class="nav-footer">
+    <ul class="clearfix">
+        <li>
+            <a href="#">
+                <img src="img/baseUi/home1.png" alt="">
+                <p>首页</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="img/baseUi/activity1.png" alt="">
+                <p>活动</p>
+            </a>
+        </li>
+        <li class="current">
+            <a href="#">
+                <img src="img/baseUi/me2.png" alt="">
+                <p>我的</p>
+            </a>
+        </li>
+    </ul>
+</footer>
+*/
+.nav-footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    padding: 0 0.3rem;
+    box-shadow: 0 -0.11rem 0.26rem #f6fcff;
+    width: 7.5rem;
+}
+
+.nav-footer ul {
+    width: 6.9rem;
+}
+
+.nav-footer li {
+    width: 2.3rem;
+    height: 1rem;
+    float: left;
+    text-align: center;
+
+    padding-top: 0.15rem;
+}
+
+.nav-footer li img {
+    width: 0.4rem;
+    height: 0.4rem;
+}
+
+.nav-footer li p {
+    margin-top: 0.12rem;
+    color: #919191;
+}
+
+.nav-footer li.current p {
+    color: #4cc3ff;
+}
+
+/*
+checkbox公共样式
+ <input type="checkbox" class="checkbox" id="set_default_01">
+ <label for="set_default_01"></label>
+ */
+.checkbox {
+    position: absolute;
+    visibility: hidden;
+}
+
+.checkbox ~ label {
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+.checkbox:checked ~ label {
+    background: url(../img/baseUi/checked.png) no-repeat 0 0/0.4rem 0.4rem;
+}
+
+/*
+
+
+客服热线公共样式
+<section class="mask-service-phone" v-show="show">
+    <div class="wrap">
+        <i @click="closePhoneNumber">×</i>
+        <div class="phoneNumber">客服热线:0577-88835715</div>
+        <div class="dial">确认拨号</div>
+    </div>
+</section>
+<script src="lib/vue/vue.js"></script>
+<script src="js/baseCustomerService.js"></script>
+*/
+.mask-service-phone {
+    position: fixed;
+    top: 50%;
+    width: 7.5rem;
+}
+
+.mask-service-phone .wrap {
+    position: relative;
+    width: 5rem;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0.02rem 0.02rem 0.5rem #dedede, -0.02rem -0.02rem 0.5rem #dedede;
+}
+
+.mask-service-phone .wrap i {
+    position: absolute;
+    top: -0.66rem;
+    right: 0;
+    width: 0.44rem;
+    height: 0.44rem;
+    content: "×";
+    font-size: 0.3rem;
+    line-height: 0.4rem;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.mask-service-phone .wrap::after {
+    position: absolute;
+    top: -0.22rem;
+    right: 0.22rem;
+    width: 0;
+    height: 0.2rem;
+    border-left: 1px solid #ccc;
+    content: '';
+}
+
+.mask-service-phone .phoneNumber {
+    height: 1.6rem;
+    background-color: #fff;
+    line-height: 1.6rem;
+    font-size: 0.28rem;
+    color: #333;
+}
+
+.mask-service-phone .dial {
+    height: 1.2rem;
+    background-color: #f5f5f5;
+    color: #4cc3ff;
+    line-height: 1.2rem;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding-top: 0.88rem;
+}
+
+.base-header {
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 7.5rem;
+    margin: 0 auto;
+    padding: 0 0.3rem;
+    border-bottom: 1px solid #ccc;
+    line-height: 0.87rem;
+    font-size: 0.32rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.base-header .goBack {
+    position: absolute;
+    left: 0.3rem;
+    width: 0.44rem;
+    height: 0.44rem;
+    background: url(../img/baseUi/goBack.png) no-repeat 0 0/0.44rem 0.44rem;
+    margin-top: 0.22rem;
+}
+
+.base-header span {
+    position: absolute;
+    right: 0.3rem;
+    color: #4cc3ff;
+    font-size: 0.32rem;
+}
+
+.base-header span a {
+    color: #4cc3ff;
+}
+
+.base-ul {
+    background-color: #fff;
+}
+
+.base-ul li {
+    padding: 0 0.3rem;
+    height: 1rem;
+    border-bottom: 1px solid #ccc;
+    line-height: 0.99rem;
+    font-size: 0.28rem;
+    color: #333;
+    background: url(../img/user/right.png) no-repeat right 0.3rem center/0.12rem 0.2rem;
+}
+
+.base-ul li a {
+    display: block;
+    color: #333;
+}
+
+.base-footer {
+    width: 7.5rem;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+}
+
+.base-footer div {
+    width: 5.5rem;
+    height: 0.8rem;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+    border-radius: 0.1rem;
+    color: #fff;
+    background-color: #4cc3ff;
+}
+.base-footer div a {
+    display: block;
+    color: #fff;
+}
+

@@ -1,0 +1,95 @@
+#level_introduce,
+#level_privilege{
+    padding:0 0.3rem;
+    background-color: #fff;
+}
+#level_introduce p {
+    line-height:150%;
+    color: #919191;
+}
+#level_introduce .intro {
+    padding:0.2rem 0;
+    border-bottom:1px solid #e6e6e6;
+}
+#level_introduce h3,
+#level_privilege h3{
+    padding-top:0.15rem;
+    padding-bottom:0.2rem;
+    line-height:150%;
+    color: #333;
+    padding-left:0.38rem;
+}
+#level_introduce h3::before,
+#level_privilege h3::before{
+    position: absolute;
+    width:0.16rem;
+    height:0.16rem;
+    background-color: #4cc3ff;
+    border-radius: 50%;
+    content:'';
+    margin-top:0.15rem;
+    margin-left:-0.38rem;
+}
+#level_introduce table,
+#level_privilege table{
+    width:6.9rem;
+    border:1px solid #e6e6e6;
+    border-spacing: 0;
+    border-collapse: collapse;
+    vertical-align: middle;
+    color: #919191;
+    font-family: "Microsoft YaHei", "宋体";
+}
+#level_introduce table{
+    margin-top:0.3rem;
+}
+
+#level_introduce table th,
+#level_introduce table td,
+#level_privilege table th,
+#level_privilege table td{
+    font-weight:normal;
+
+    font-size:0.24rem;
+    height:0.86rem;
+
+    border:1px solid #e6e6e6
+}
+#level_introduce table th,
+#level_introduce table td{
+    padding-left:0.22rem;
+    width:50%;
+}
+#level_introduce table th{
+    background-color: #f7fcff;
+    text-align: left;
+}
+#level_privilege{
+    padding-top:0.62rem;
+    padding-bottom:0.3rem;
+}
+#level_privilege th,
+#level_privilege td{
+    text-align: center;
+}
+#level_privilege th{
+    background-color: #f7fcff;
+}
+#level_privilege th:nth-of-type(1),
+#level_privilege td:nth-of-type(1){
+    text-align: left;
+    padding-left:0.22rem;
+}
+#level_privilege p {
+    font-size:0.28rem;
+    color: #919191;
+    padding-top:0.58rem;
+}
+#level_privilege img.no {
+    width:0.15rem;
+    height: 0.05rem;
+}
+#level_privilege img.yes {
+    width:0.38rem;
+    height: 0.27rem;
+}

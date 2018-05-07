@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/baseUI.css">
+    <link rel="stylesheet" href="css/actionCenter.css">
+    <title>云家洁</title>
+</head>
+<body>
+<script src="js/Base-init.js"></script>
+<header class="base-header">
+    <a class="goBack" href="user.html"></a>活动中心
+</header>
+<nav id="action_center">
+    <ul>
+        <li>
+            <div class="banner"></div>
+            <p>离活动结束还有<span>{{time}}</span></p>
+        </li>
+    </ul>
+</nav>
+<footer class="nav-footer">
+    <ul class="clearfix">
+        <li>
+            <a href="index.html">
+                <img src="img/baseUi/home1.png" alt="">
+                <p>首页</p>
+            </a>
+        </li>
+        <li class="current">
+            <a>
+                <img src="img/baseUi/activity2.png" alt="">
+                <p>活动</p>
+            </a>
+        </li>
+        <li>
+            <a href="user.html">
+                <img src="img/baseUi/me1.png" alt="">
+                <p>我的</p>
+            </a>
+        </li>
+    </ul>
+</footer>
+<script src="lib/vue/vue.js"></script>
+<script>
+    new Vue({
+        el: '#action_center',
+        data: {
+            time: 0
+        },
+        mounted: function () {
+            var that = this;
+            var endTime = 86400;
+            var hours = 0;
+            var minutes = 0;
+            var seconds = 0
+            setInterval(function () {
+                endTime--;
+                seconds = Math.floor(endTime % 60);
+                seconds = seconds < 10 ? '0' + seconds : seconds;
+                minutes = Math.floor(endTime / 60 % 60);
+                minutes = minutes < 10 ? '0' + minutes : minutes;
+                hours = Math.floor(endTime / 3600 % 24);
+                hours = hours < 10 ? '0' + hours : hours;
+                that.time = hours + ':' + minutes + ':' + seconds;
+            }, 1000);
+
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.base-header h3 {
+    width:3.4rem;
+    margin: 0 auto;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+#message_info {
+    padding-top:0.22rem;
+}
+#message_info p {
+    padding:0 0.3rem;
+    line-height:150%;
+}

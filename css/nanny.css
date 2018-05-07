@@ -1,0 +1,305 @@
+#banner {
+    height: 3rem;;
+    background: url(../img/nanny/nanny_banner.jpg) no-repeat 0 0/7.5rem 3rem;
+}
+
+#reserve-info {
+    margin-top: 0.12rem;
+    padding: 0 0.3rem;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 0.32rem;
+}
+
+#reserve-info p {
+    line-height: 0.78rem;
+    color: #919191;
+}
+
+#reserve-info input[type="text"] {
+    width: 6.9rem;
+    height: 1rem;
+    line-height: 0.98rem;
+    padding-left: 0.2rem;
+    border: 1px solid #919191;
+    font-size: 0.28rem;
+}
+
+#reserve-info .input-arrow {
+    background: url(../img/baseUi/right.png) no-repeat top 50% right 0.2rem/0.18rem 0.34rem;
+}
+
+#reserve-info input + input {
+    margin-top: 0.12rem;
+}
+
+#reserve-info input[type="button"] {
+    line-height: 0.84rem;
+    width: 6.9rem;
+    background-color: #4cc3ff;
+    color: #fff;
+    text-align: center;
+    font-size: 0.28rem;
+    border-radius: 0.1rem;
+}
+#reserve-info a {
+    display: block;
+    margin-top:0.12rem;
+}
+
+#service {
+    margin-top: 0.12rem;
+}
+
+#service h3 {
+    text-align: center;
+    line-height: 0.73rem;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #fff;
+}
+
+#service .service-advantage dl {
+    background-color: #fff;
+}
+
+#service .service-advantage dt,
+#service .service-advantage dd {
+    padding: 0.35rem 0.3rem 0 1.4rem;
+}
+
+#service .service-advantage dt img {
+    position: absolute;
+    left: 0.3rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    margin-right: 0.3rem;
+}
+
+#service .service-advantage dt div,
+#service .service-advantage dd div {
+    padding-bottom: 0.34rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#service .service-advantage dl h4 {
+    color: #333;
+    font-size: 0.28rem;
+    font-weight: normal;
+    padding-bottom: 0.2rem;
+}
+
+#service .service-advantage dl p {
+    color: #919191;
+    line-height: 120%;
+}
+
+#service .service-advantage dd {
+    background-color: #fff;
+}
+
+#service .service-advantage dd > img {
+    position: absolute;
+    left: 1.4rem;
+    width: 1.2rem;
+    height: 0.7rem;
+    border-radius: 0.1rem;
+    margin-right: 0.3rem;
+    margin-top: 0.08rem;
+}
+
+#service .service-advantage dd div {
+    padding-left: 1.5rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#service .service-advantage dd .quick {
+    padding: 0 0 0.34rem 0;
+}
+#service .service-advantage  .quick p {
+    padding-bottom:0.24rem;
+}
+#service .service-advantage  .quick img {
+    width:5.75rem;
+    height: 3rem;
+}
+
+#service_price {
+    padding: 0 0.3rem;
+    margin-top: 0.22rem;
+    background-color: #fff;
+}
+
+#service_price h3 {
+    text-align: center;
+    line-height: 0.73rem;
+    border-bottom: 1px solid #e6e6e6;
+
+}
+
+#service_price table {
+    width: 100%;
+    padding: 0 0.3rem;
+    border-collapse: collapse;
+    vertical-align: middle;
+    line-height: 122%;
+    font-size: 0.24rem;
+    margin-top:0.25rem;
+}
+
+#service_price th {
+    height: 0.62rem;
+    color: #333;
+    background-color: #e6e6e6;
+}
+
+#service_price td:nth-of-type(1) {
+    text-align: center;
+}
+
+#service_price td:nth-of-type(2) {
+    padding: 0.22rem 0.3rem 0.22rem 0.34rem;
+}
+
+#service_price th,
+#service_price td {
+    border: 1px solid #e6e6e6;
+}
+
+#service_price th:nth-of-type(1),
+#service_price td:nth-of-type(1) {
+    width: 2.3rem;
+}
+
+#service_price em {
+    padding-left: 0.08rem;
+    color: #4cc3ff;
+}
+
+#service_price ul {
+    list-style-image: url(../img/nanny/list_style.png);
+}
+
+#service_price ul li {
+    color: #919191;
+    padding-left: 0.08rem;
+}
+
+#service_price .other-description {
+    font-size: 0.2rem;
+    padding: 0.3rem 0 0.6rem 0.3rem;
+    line-height: 180%;
+}
+
+#service_price .other-description p {
+    font-size: 0.2rem;
+}
+
+#service_process {
+    background-color: #fff;
+    margin-top: 0.22rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+    padding-bottom:0.48rem;
+}
+
+#service_process h3 {
+    line-height: 0.73rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#service_process ul {
+    padding:0 0.3rem;
+    text-align: justify;
+    text-align-last:justify;
+}
+#service_process ul:after{
+    display:inline-block;
+    overflow:hidden;
+    width:100%;
+    height:0;
+    content:'';
+    vertical-align:top;
+}
+
+#service_process li {
+    display: inline-block;
+    font-size: 0.24rem;
+    background-color: #fff;
+    padding-top: 0.5rem;
+}
+#service_process li+li::before{
+    position: absolute;
+    margin-top:0.32rem;
+    margin-left:-0.72rem;
+    content: '';
+    width:0.18rem;
+    height:0.34rem;
+    background: url(../img/baseUi/right.png) no-repeat 0 0 /0.18rem 0.34rem;
+}
+#service_process li div {
+    line-height: 1rem;
+    margin: 0 auto;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #ededed;
+    vertical-align: middle;
+    text-align: center;
+    text-align-last: center;
+}
+
+#service_process li div img {
+    width: 0.38rem;
+    height: 0.38rem;
+}
+#service_process li h4,
+#service_process li p{
+    text-align: center;
+    text-align-last: center;
+}
+#service_process li h4 {
+    padding-top:0.3rem;
+}
+#service_process li p {
+    color: #919191;
+    padding-top:0.08rem;
+}
+#footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    width:7.5rem;
+    bottom:0;
+    margin: 0 auto;
+}
+#footer div{
+    float: left;
+    width:50%;
+    height:1rem;
+    text-align: center;
+}
+#footer div a {
+    display: block;
+    color: #fff;
+}
+#footer .service-phone{
+    background-color: #fff;
+    padding-top:0.15rem;
+}
+#footer .service-phone img{
+    line-height:100%;
+    width:0.34rem;
+    height:0.37rem;
+}
+#footer .service-phone p {
+    padding-top:0.08rem;
+    line-height:100%;
+    color: #4cc3ff;
+    font-size:0.2rem;
+}
+#footer .order{
+    line-height:1rem;
+    background-color: #4cc3ff;
+    color: #fff;
+}

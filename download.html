@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/baseUI.css">
+    <link rel="stylesheet" href="css/download.css">
+    <title>云家洁</title>
+</head>
+<body>
+<script src="js/Base-init.js"></script>
+<header class="base-header">
+    <a class="goBack" href="user.html"></a>下载APP
+</header>
+<section id="prompt">
+    亲！您还没有下载云家洁APP,点击下载即可体验云家洁专享服务，注册登录更有豪礼相送。
+</section>
+<main id="download" class="clearfix">
+    <div class="one">
+        <h3><span>1</span>下载云家洁APP</h3>
+        <img class="qrCode" src="img/download/QR_code.png" alt="">
+        <p>微信扫描二维码下载</p>
+        <a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.cn.yunjiajie">
+            云家洁客户端下载
+        </a>
+    </div>
+    <div class="two" id="gift">
+        <h3><span>2</span>注册登录领豪礼</h3>
+        <div class="gift" @touchstart="addScale" @touchend="removeScale" :class="{scale:classObj.scale}">
+            <img class="gift_1" src="img/download/gift_1.png" alt="">
+            <img class="gift_2" src="img/download/gift_2.png" alt="">
+        </div>
+        <p>下载云家洁APP，注册登录就送价值20元的超值新人礼包</p>
+    </div>
+</main>
+</body>
+<script src="lib/vue/vue.js"></script>
+<script src="js/download.js"></script>
+</html>

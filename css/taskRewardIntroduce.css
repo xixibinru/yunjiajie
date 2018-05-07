@@ -1,0 +1,75 @@
+#reward{
+     background-color: #fff;
+     padding:0 0.3rem;
+
+ }
+#reward div{
+    border-bottom:1px solid #ccc;
+    padding-bottom:0.16rem;
+}
+#reward h3 {
+    padding-top:0.36rem;
+    padding-left:0.38rem;
+    color: #333;
+    line-height:220%;
+}
+#reward .reward-01 h3{
+    padding-top:0;
+}
+#reward h3::before{
+    position: absolute;
+    width:0.16rem;
+    height:0.16rem;
+    background-color: #4cc3ff;
+    border-radius: 50%;
+    content:'';
+    margin-top:0.24rem;
+    margin-left:-0.38rem;
+}
+#reward p {
+    color: #919191;
+    line-height:150%;
+    letter-spacing: 0.1em;
+}
+#reward .reward-04 table {
+    margin-top:0.14rem;
+    width:6.9rem;
+    border:1px solid #e6e6e6;
+    border-spacing: 0;
+    border-collapse: collapse;
+    vertical-align: middle;
+    line-height:150%;
+}
+#reward .reward-04 th,td{
+    border:1px solid #e6e6e6;
+    color: #919191;
+    text-align: left;
+    padding: 0 0.3rem;
+    vertical-align: middle;
+    height:0.88rem;
+}
+#reward .reward-04 th {
+    font-size:0.24rem;
+    background-color: #f7fcff;
+}
+#reward .reward-04 td {
+    font-size:0.2rem;
+}
+#reward .table-01 th:nth-of-type(1),
+#reward .table-01 td:nth-of-type(1){
+    width:22%;
+}
+#reward .reward-04 p {
+    font-size:0.2rem;
+    color: #919191;
+}
+#reward .reward-04 h4 {
+    font-size:0.24rem;
+    color: #919191;
+    line-height:300%;
+    font-weight:500;
+}
+#reward .table-02 th,
+#reward .table-02 td {
+    width:33.33%;
+}

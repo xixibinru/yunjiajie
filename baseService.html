@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/baseUI.css">
+    <link rel="stylesheet" href="css/baseService.css">
+    <title>云家洁</title>
+</head>
+<body>
+<script src="js/Base-init.js"></script>
+<header class="base-header" id="mainTitle">
+    <a class="goBack" @click="goBack"></a>{{mainTitle}}
+</header>
+<section id="banner">
+    <img :src="bannerUrl" alt="">
+</section>
+<section id="vip_discount">
+    <img src="img/baseUi/vip_discount.png" alt="">购买会员卡享受<span>6.5</span>折优惠<a href="download.html">立即购买</a>
+</section>
+<section id="service_explain">
+    <div class="table">
+        <my-table v-for="item in current.tables" :table="item"></my-table>
+        <template v-if="current.tableWarmPrompt.exist">
+            <div class="warmPrompt table-warmPrompt">
+                <h4>温馨提示：</h4>
+                <ol>
+                    <li v-for="content in current.tableWarmPrompt.content">{{content}}</li>
+                </ol>
+            </div>
+        </template>
+        <template v-if="current.tableRemark.exist">
+            <p class="table-remark">{{current.tableRemark.content}}</p>
+        </template>
+    </div>
+    <div class="detail">
+        <my-servicedetail v-for="item in current.serviceDetail" :detail="item"></my-servicedetail>
+    </div>
+    <div class="service-process">
+        <h3>{{current.serviceProcess.title}}</h3>
+        <ul class="clearfix process-detail">
+            <li v-for="item in current.serviceProcess.lisItem">
+                <img :src="item.img" alt="">
+                <p v-for="desc in item.desc">{{desc}}</p>
+            </li>
+        </ul>
+        <template v-if="current.serviceProcess.processWarmPrompt.exist">
+            <div class="warmPrompt process-warmPrompt">
+                <h4>温馨提示：</h4>
+                <ol>
+                    <li v-for="content in current.serviceProcess.processWarmPrompt.content">{{content}}</li>
+                </ol>
+            </div>
+        </template>
+    </div>
+    <template v-if="current.nursing.exist">
+        <div class="service-detail nursing">
+        <h4>{{current.nursing.title}}</h4>
+        <ul>
+        <li v-for="nursing in current.nursing.content">{{nursing}}</li>
+        </ul>
+        </div>
+    </template>
+        <template v-if="current.question.exist">
+            <div class="question">
+                <h4>答疑解惑</h4>
+                <h5><span>Q：</span>为什么要对地板打蜡？</h5>
+                <p><span>A：</span>为了隔离灰尘,避免木地板的变形,打蜡后，地板不易受气候的干湿影响，地板含水率增加5%，有效避免地板收缩。</p>
+                <h5><span>Q：</span>地板打蜡多久做一次？</h5>
+                <p><span>A：</span>根据蜡的附着周期，地板行业专家建议每3个月进行一次。</p>
+                <h5><span>Q：</span>蜡打的越多越好么？</h5>
+                <p><span>A：</span>不是的，因为多余的更音会渗透到地板缝隙，踩踏的时候使地板发出声响。采用合理的养护方法才能让您的地板明亮如玉 ，拥有更长久的使用寿命。</p>
+                <h5><span>Q：</span>为什么不建议自己动手打蜡？</h5>
+                <p><span>A：</span>地板蜡属于易燃危险品，并且上蜡很难做到均匀光滑，经过专业训练的养护师掌握正确的操作方法 , 可让您的地板均匀光亮，彰显生活品质。</p>
+            </div>
+        </template>
+</section>
+<footer class="base-footer">
+    <div><a href="download.html">立即预约</a></div>
+</footer>
+<section class="mask-downApp"></section>
+<script src="lib/vue/vue.js"></script>
+<script src="js/baseService.js"></script>
+</body>
+</html>
